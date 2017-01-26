@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node build_scripts/compile.js",
+    "minify": "node_modules/postcss-cli/bin/postcss --use autoprefixer --use cssnano -o assets/style/style.css assets/style/style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "jquery": "^3.1.1",
-    "node-sass": "^4.3.0"
+    "node-sass": "^4.3.0",
+    "autoprefixer": "^6.7.0",
+    "cssnano-cli": "^1.0.5",
+    "postcss": "^5.2.11"
   }
 }
