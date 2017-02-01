@@ -1,0 +1,12 @@
+h1,h2 {
+    margin-bottom: #{$line-height-computed * 2}px;
+    line-height: #{$line-height-base}em;
+}
+h1,h2,h3,h4 {
+    font-family: $font-family-serif;
+
+}
+p {
+    margin-bottom: $line-height-computed;
+    font-size: $font-size-base * 1.25;
+}
