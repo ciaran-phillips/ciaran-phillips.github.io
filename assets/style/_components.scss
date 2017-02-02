@@ -19,6 +19,15 @@
     line-height: 42px;
     height: 42px;
 }
+.contact-section {
+    border-top: 2px solid #777;
+    margin-top: $line-height-computed * 2;
+    margin-bottom: $line-height-computed * 4;
+    text-align: center;
+}
+.contact-section__sites {
+    font-size: 21px;
+}
 /*********
 ** Portfolio piece component
 *********/
