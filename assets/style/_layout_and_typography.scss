@@ -2,11 +2,19 @@ h1,h2 {
     margin-bottom: #{$line-height-computed * 2}px;
     line-height: #{$line-height-base}em;
 }
-h1,h2,h3,h4 {
+h1,h2,h3,h4, p.lead {
     font-family: $font-family-serif;
-
 }
 p {
     margin-bottom: $line-height-computed;
     font-size: $font-size-base * 1.25;
+}
+.container-fluid {
+    padding: 0;
+}
+.lead {
+    line-height: 1.5em;
+    color: #444;
+    padding-top: $line-height-computed * 2;
+    font-size: $font-size-base * 1.7;
 }
