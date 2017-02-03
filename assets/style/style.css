@@ -3662,7 +3662,8 @@ p {
   text-align: center; }
 
 .contact-section__sites {
-  font-size: 21px; }
+  font-size: 21px;
+  text-align: center; }
 
 [class^="icon-"]:before {
   font-size: 1.2em; }
@@ -3675,8 +3676,10 @@ p {
   padding-top: 63px; }
 
 .folio-piece__text {
-  padding: 0 42px;
-  float: left; }
+  padding: 0; }
+  @media (min-width: 768px) {
+    .folio-piece__text {
+      padding: 0 42px; } }
 
 .folio-piece__img {
   width: 100%;
@@ -3686,9 +3689,13 @@ p {
   left: 0; }
 
 .folio-piece__img-cover {
-  float: left;
   position: relative;
   height: 300px; }
+
+@media (min-width: 768px) {
+  .folio-piece:nth-child(2n) .col-sm-8,
+  .folio-piece:nth-child(2n) .col-sm-4 {
+    float: right; } }
 
 /*********
 ** Flightgroove logo

@@ -27,6 +27,7 @@
 }
 .contact-section__sites {
     font-size: 21px;
+    text-align: center;
 }
 [class^="icon-"]:before {
     font-size: 1.2em;
@@ -40,8 +41,10 @@
 }
 
 .folio-piece__text {
-  padding: 0 #{$line-height-computed * 2};
-  float: left; 
+  padding: 0;
+  @media (min-width:768px)  {
+      padding: 0 #{$line-height-computed * 2};
+  }
 }
 
 .folio-piece__img {
@@ -53,9 +56,14 @@
 }
 
 .folio-piece__img-cover {
-  float: left;
   position: relative;
   height: 300px; 
+}
+@media (min-width:768px) {
+  .folio-piece:nth-child(2n) .col-sm-8,
+  .folio-piece:nth-child(2n) .col-sm-4 {
+    float: right;
+  }
 }
 
 /*********
