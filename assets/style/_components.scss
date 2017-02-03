@@ -28,6 +28,9 @@
 .contact-section__sites {
     font-size: 21px;
 }
+[class^="icon-"]:before {
+    font-size: 1.2em;
+}
 /*********
 ** Portfolio piece component
 *********/
