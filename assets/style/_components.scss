@@ -4,13 +4,15 @@
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px; 
+  padding-bottom: 120px; 
   color: #fff;
 }
+
 .landing-block a {
     color: #fff;
     text-decoration: underline;
 }
+
 .scroll-cta {
     color: white;
     text-align: center;
@@ -19,78 +21,14 @@
     line-height: 42px;
     height: 42px;
 }
+
 .contact-section {
-    border-top: 2px solid #777;
     margin-top: $line-height-computed * 2;
     margin-bottom: $line-height-computed * 4;
     text-align: center;
 }
+
 .contact-section__sites {
     font-size: 21px;
     text-align: center;
-}
-[class^="icon-"]:before {
-    font-size: 1.2em;
-}
-/*********
-** Portfolio piece component
-*********/
-.folio-piece {
-  min-height: 300px; 
-  padding-top: $line-height-computed * 3;
-}
-
-.folio-piece__text {
-  padding: 0;
-  @media (min-width:768px)  {
-      padding: 0 #{$line-height-computed * 2};
-  }
-}
-
-.folio-piece__img {
-  width: 100%;
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0; 
-}
-
-.folio-piece__img-cover {
-  position: relative;
-  height: 300px; 
-}
-@media (min-width:768px) {
-  .folio-piece:nth-child(2n) .col-sm-8,
-  .folio-piece:nth-child(2n) .col-sm-4 {
-    float: right;
-  }
-}
-
-/*********
-** Flightgroove logo
-*********/
-.flightgroove-logo {
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  line-height: 1.5em; 
-}
-
-.flightgroove-logo__tagline {
-  font-size: 21px; 
-}
-
-.flightgroove-logo__header {
-  border-bottom: 2px solid #fff;
-  font-size: 36px;
-  display: block;
-  padding: 0 10px;
-  line-height: 1.5em; 
-}
-
-.flightgroove-bg {
-  background-color: #DE392E; 
 }
